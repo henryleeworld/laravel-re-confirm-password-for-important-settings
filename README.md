@@ -1,4 +1,4 @@
-# Laravel 7 重新確認密碼以進行重要設置
+# Laravel 8 重新確認密碼以進行重要設置
 
 重新確認密碼確認使用者後，預設情況下會在使用者 session 中儲存一個時間戳記，時間戳記預設持續 3 個小時，因此使用者不必在此期間再次輸入密碼。 
 
@@ -16,9 +16,13 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
-- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移，並執行資料庫填充（如果要測試的話）。
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
 ```sh
-$ php artisan migrate --seed
+$ php artisan migrate
+```
+- 執行安裝 Laravel Mix 引用的依賴項目，並執行所有 Mix 任務。
+```sh
+$ npm install && npm run dev
 ```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/register` 來進行註冊。
