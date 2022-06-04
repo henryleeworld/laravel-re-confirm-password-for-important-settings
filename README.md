@@ -1,4 +1,4 @@
-# Laravel 8 重新確認密碼以進行重要設置
+# Laravel 9 重新確認密碼以進行重要設置
 
 重新確認密碼確認使用者後，預設情況下會在使用者 session 中儲存一個時間戳記，時間戳記預設持續 3 個小時，因此使用者不必在此期間再次輸入密碼。 
 
@@ -31,8 +31,8 @@ $ npm install && npm run dev
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/U1XEuAb.png)
+![](https://i.imgur.com/0VzOU2u.png)
 > 請使用者重新確認密碼
 
-![](https://i.imgur.com/KwXhnDm.png)
+![](https://i.imgur.com/2kJi8Pk.png)
 > 進入頁面瀏覽
