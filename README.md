@@ -1,4 +1,4 @@
-# Laravel 9 重新確認密碼以進行重要設置
+# Laravel 10 重新確認密碼以進行重要設置
 
 重新確認密碼確認使用者後，預設情況下會在使用者 session 中儲存一個時間戳記，時間戳記預設持續 3 個小時，因此使用者不必在此期間再次輸入密碼。 
 
@@ -20,9 +20,13 @@ $ php artisan key:generate
 ```sh
 $ php artisan migrate
 ```
-- 執行安裝 Laravel Mix 引用的依賴項目，並執行所有 Mix 任務。
+- 執行安裝 Vite 和 Laravel 擴充套件引用的依賴項目。
 ```sh
-$ npm install && npm run dev
+$ npm install
+```
+- 執行正式環境版本化資源管道並編譯。
+```sh
+$ npm run build
 ```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/register` 來進行註冊。
@@ -31,8 +35,8 @@ $ npm install && npm run dev
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/0VzOU2u.png)
+![](https://i.imgur.com/NfEV0fw.png)
 > 請使用者重新確認密碼
 
-![](https://i.imgur.com/2kJi8Pk.png)
+![](https://i.imgur.com/F8MNCFK.png)
 > 進入頁面瀏覽
