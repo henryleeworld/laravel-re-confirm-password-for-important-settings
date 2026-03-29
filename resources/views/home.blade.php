@@ -13,9 +13,6 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    {{ __('You are logged in!') }}
-                    <p></p>
                     <a href="{{ route('secrets') }}" class="btn btn-primary active" role="button" aria-pressed="true">{{ __('Go to my secret') }}</a>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-# Laravel 11 重新確認密碼以進行重要設置
+# Laravel 12 重新確認密碼以進行重要設置
 
 重新確認密碼確認使用者後，預設情況下會在使用者 session 中儲存一個時間戳記，時間戳記預設持續 3 個小時，因此使用者不必在此期間再次輸入密碼。 
 
@@ -35,8 +35,8 @@ $ npm run build
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/t7qyovR.png)
+![](https://i.imgur.com/44xAVjv.png)
 > 請使用者重新確認密碼
 
-![](https://i.imgur.com/PVxODCf.png)
+![](https://i.imgur.com/3rElBJG.png)
 > 進入頁面瀏覽
